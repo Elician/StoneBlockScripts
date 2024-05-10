@@ -1,5 +1,6 @@
 #Name: 00_oreDict.zs
 #Author: Feed the Beast and Sunekaer
+#for elician
 
 
 print("Initializing '00_oreDict.zs'...");
