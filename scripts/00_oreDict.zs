@@ -53,7 +53,6 @@ print("Initializing '00_oreDict.zs'...");
 <ore:acaciaPlanks>.add(<chisel:planks-acacia:13>);
 <ore:acaciaPlanks>.add(<chisel:planks-acacia:14>);
 
-
 <ore:birchPlanks>.add(<minecraft:planks:2>);
 <ore:birchPlanks>.add(<chisel:planks-birch>);
 <ore:birchPlanks>.add(<chisel:planks-birch:1>);
