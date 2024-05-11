@@ -12,4 +12,4 @@ recipes.addShaped(<petrock:prorderform>, [
 ]);
 
 
-print("Initialized 'petrock.zs'");
+
