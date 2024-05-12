@@ -1,9 +1,6 @@
 
-removeExist(<stonechest:chest_cobblestone>);
-removeExist(<stoneblockutilities:stoneworkbench>);
-
-
-
+recipes.remove(<stonechest:chest_cobblestone>);
+recipes.remove(<stoneblockutilities:stoneworkbench>);
 
 
 recipes.addShaped(<stoneblockutilities:stoneworkbench>, [
