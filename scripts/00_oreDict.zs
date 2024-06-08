@@ -1,7 +1,4 @@
 #Name: 00_oreDict.zs
-#Author: Feed the Beast and Sunekaer
-#for elician
-
 
 print("Initializing '00_oreDict.zs'...");
 
@@ -14,11 +11,8 @@ print("Initializing '00_oreDict.zs'...");
 <ore:rodStone>.remove(<microblockcbe:stone_rod>);
 <ore:listAlllava>.add(<minecraft:lava_bucket>);
 <ore:listAlllava>.add(<chickens:liquid_egg:1>);
-//<ore:listAlllava>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}));
 <ore:listAllwater>.add(<chickens:liquid_egg>);
-//<ore:listAllwater>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));
 <ore:dragonScale>.add(<mysticalagradditions:stuff:3>);
-
 <ore:oakPlanks>.add(<minecraft:planks>);
 <ore:oakPlanks>.add(<chisel:planks-oak>);
 <ore:oakPlanks>.add(<chisel:planks-oak:1>);
@@ -35,7 +29,6 @@ print("Initializing '00_oreDict.zs'...");
 <ore:oakPlanks>.add(<chisel:planks-oak:12>);
 <ore:oakPlanks>.add(<chisel:planks-oak:13>);
 <ore:oakPlanks>.add(<chisel:planks-oak:14>);
-
 <ore:acaciaPlanks>.add(<minecraft:planks:4>);
 <ore:acaciaPlanks>.add(<chisel:planks-acacia>);
 <ore:acaciaPlanks>.add(<chisel:planks-acacia:1>);
@@ -52,7 +45,6 @@ print("Initializing '00_oreDict.zs'...");
 <ore:acaciaPlanks>.add(<chisel:planks-acacia:12>);
 <ore:acaciaPlanks>.add(<chisel:planks-acacia:13>);
 <ore:acaciaPlanks>.add(<chisel:planks-acacia:14>);
-
 <ore:birchPlanks>.add(<minecraft:planks:2>);
 <ore:birchPlanks>.add(<chisel:planks-birch>);
 <ore:birchPlanks>.add(<chisel:planks-birch:1>);
@@ -69,8 +61,6 @@ print("Initializing '00_oreDict.zs'...");
 <ore:birchPlanks>.add(<chisel:planks-birch:12>);
 <ore:birchPlanks>.add(<chisel:planks-birch:13>);
 <ore:birchPlanks>.add(<chisel:planks-birch:14>);
-
-
 <ore:darkOakPlanks>.add(<minecraft:planks:5>);
 <ore:darkOakPlanks>.add(<chisel:planks-dark-oak>);
 <ore:darkOakPlanks>.add(<chisel:planks-dark-oak:1>);
@@ -87,8 +77,6 @@ print("Initializing '00_oreDict.zs'...");
 <ore:darkOakPlanks>.add(<chisel:planks-dark-oak:12>);
 <ore:darkOakPlanks>.add(<chisel:planks-dark-oak:13>);
 <ore:darkOakPlanks>.add(<chisel:planks-dark-oak:14>);
-
-
 <ore:junglePlanks>.add(<minecraft:planks:3>);
 <ore:junglePlanks>.add(<chisel:planks-jungle>);
 <ore:junglePlanks>.add(<chisel:planks-jungle:1>);
@@ -105,8 +93,6 @@ print("Initializing '00_oreDict.zs'...");
 <ore:junglePlanks>.add(<chisel:planks-jungle:12>);
 <ore:junglePlanks>.add(<chisel:planks-jungle:13>);
 <ore:junglePlanks>.add(<chisel:planks-jungle:14>);
-
-
 <ore:sprucePlanks>.add(<minecraft:planks:1>);
 <ore:sprucePlanks>.add(<chisel:planks-spruce>);
 <ore:sprucePlanks>.add(<chisel:planks-spruce:1>);
@@ -123,6 +109,5 @@ print("Initializing '00_oreDict.zs'...");
 <ore:sprucePlanks>.add(<chisel:planks-spruce:12>);
 <ore:sprucePlanks>.add(<chisel:planks-spruce:13>);
 <ore:sprucePlanks>.add(<chisel:planks-spruce:14>);
-
 
 print("Initialized '00_oreDict.zs'");

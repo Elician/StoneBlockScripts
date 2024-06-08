@@ -1,19 +1,37 @@
 #Name: Tooltip.zs
-#Author: Feed the Beast and Sunekaer
 
 print("Initializing 'Tooltip.zs'...");
 
+//Modular
+<modularmachinery:blockcasing:1>.addTooltip(format.green("Увеличивает входной и выходной ресурс в 2 раза. Всегда располагается слева от контроллера"));
+
+<modularmachinery:blockcasing:5>.addTooltip(format.green("Увеличивает входной и выходной ресурс в 4 раза. Всегда располагается слева от контроллера"));
+
+<modularmachinery:blockcasing:2>.addTooltip(format.green("Увеличивает входной и выходной ресурс в 8 раз. Всегда располагается слева от контроллера"));
+
+<modularmachinery:blockcasing:3>.addTooltip(format.green("Увеличивает входной и выходной ресурс в 16 раз. Всегда располагается слева от контроллера"));
+
+<ggstuuff:speed1>.addTooltip(format.green("Увеличивает скорость производства в 2 раза. Всегда располагается справа от контроллера"));
+
+<ggstuuff:speed2>.addTooltip(format.green("Увеличивает скорость производства в 4 раза. Всегда располагается справа от контроллера"));
+
+<minecraft:dragon_breath>.addTooltip(format.green("Используйте пустой пузырек на кислоте края, которую переодически выпускает эндер курица во время боя"));
+
+<extracpus:crafting_storage_256k>.addTooltip(format.red("Может работать только в связке с любым обычным хранилищем создания из AE2"));
+
+<extracpus:crafting_storage_1024k>.addTooltip(format.red("Может работать только в связке с любым обычным хранилищем создания из AE2"));
+
+<extracpus:crafting_storage_4096k>.addTooltip(format.red("Может работать только в связке с любым обычным хранилищем создания из AE2"));
+
+<extracpus:crafting_storage_16384k>.addTooltip(format.red("Может работать только в связке с любым обычным хранилищем создания из AE2"));
 
 //Mega Torch
-<torchmaster:mega_torch>.addTooltip(format.yellow("Stops Mob Spawns in a"));
-<torchmaster:mega_torch>.addTooltip(format.yellow("64 Block Radius"));
+<torchmaster:mega_torch>.addTooltip(format.yellow("Останавливает появление мобов"));
+
+<torchmaster:mega_torch>.addTooltip(format.yellow("в радиусе 64 блоков"));
 
 //AE2
-<appliedenergistics2:material:13>.addTooltip(format.yellow("Can be crafted"));
-<appliedenergistics2:material:14>.addTooltip(format.yellow("Can be crafted"));
-<appliedenergistics2:material:15>.addTooltip(format.yellow("Can be crafted"));
-<appliedenergistics2:material:19>.addTooltip(format.yellow("Can be crafted"));
-<appliedenergistics2:facade>.addTooltip(format.yellow("Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."));
+<appliedenergistics2:facade>.addTooltip(format.yellow("Фасады не отключены; Они просто скрыты в JEI. Чтобы создать фасад, поместите блок, из которого вы хотите создать фасад в центр сетки для создания (3x3) и четыре кабельных якоря AE2 на всех смежных сторонах этого блока. Если рецепт не отображаются, вы не сможете создать фасад с помощью этого блока."));
 
 //Sieves
 <exnihilocreatio:block_sieve>.addTooltip(format.yellow("Requires a Mesh"));
@@ -48,7 +66,5 @@ print("Initializing 'Tooltip.zs'...");
 <minecraft:mob_spawner>.addTooltip(format.yellow("Entity type can be changed with Spawner Changer"));
 <minecraft:mob_spawner>.addTooltip(format.yellow("Or by being broken and combined with Soul Vial in a Soul Binder"));
 
-//
-<petrock:stoneium>.addTooltip(format.yellow("Used to tame a petrock"));
 
 print("Initialized 'Tooltip.zs'");
