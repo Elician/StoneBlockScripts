@@ -167,7 +167,17 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:resource:6>,
 
 #-Катализатор бесконечности
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
-mods.extendedcrafting.TableCrafting.addShapeless(4, <avaritia:resource:5>, [<avaritia:resource:2>, <ore:nuggetCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <avaritia:ultimate_stew>, <avaritia:resource:7>, <avaritia:cosmic_meatballs>, <avaritia:endest_pearl>, <draconicevolution:draconic_core>, <draconicevolution:wyvern_core>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconic_energy_core>, <ore:blockLitherite>, <ore:blockErodium>, <ore:blockKyronite>, <ore:blockPladium>, <ore:blockIonite>, <ore:blockAethium>, <ore:blockCrystalMatrix>, <extendedcrafting:singularity_ultimate>, <mekanism:polyethene:2>, <ore:itemRubber>, <ore:blockLonsdaleite>, <extrautils2:decorativesolid:8>, <ore:dragonEgg>, <ore:blockCrystalFlux>, <ore:blockUltimate>, <deepmoblearning:infused_ingot_block>, <ore:blockOsgloglas>, <ore:blockMirion>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <extendedcrafting:material:10>, <extendedcrafting:material:11>, <extendedcrafting:material:13>, <extracells:storage.component:3>]);
+mods.extendedcrafting.TableCrafting.addShaped(<avaritia:resource:5>, [
+	[<extendedcrafting:singularity_ultimate>, <ore:ingotUltimate>, <mysticalagradditions:stuff:69>, <ore:itemEnderCrystal>, <ore:itemVibrantCrystal>, <ore:itemPulsatingCrystal>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:endest_pearl>], 
+	[<ore:blockNetherStar>, <extracells:storage.component:2>, <extracells:storage.component:10>, <extracells:storage.component:17>, <chancecubes:chance_icosahedron>, <actuallyadditions:item_misc:19>, <ore:itemUnsouledMachineChassi>, <thaumcraft:seal:16>, <ore:compressed3xDustBedrock>], 
+	[<ore:compressed1xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed3xCobblestone>, <ore:compressed4xCobblestone>, <ore:compressed5xCobblestone>, <ore:compressed6xCobblestone>, <ore:compressed7xCobblestone>, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
 
 #-Ботинки бесконечности
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_boots>);
@@ -186,16 +196,13 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_helmet>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:infinity_helmet>, 100000000, 1000000, <draconicevolution:draconic_helm>, [<avaritia:block_resource>, <avaritia:block_resource>, <projecte:item.pe_gem_armor_3>, <avaritia:block_resource>, <avaritia:block_resource>, <avaritia:block_resource>, <avaritia:block_resource>, <draconicevolution:draconium_capacitor:2>, <avaritia:block_resource>, <avaritia:block_resource>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>,  <avaritia:block_resource>, <avaritia:block_resource>, <draconicevolution:draconium_capacitor:2>, <avaritia:block_resource>, <avaritia:block_resource>]);
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
-mods.extendedcrafting.TableCrafting.addShaped(<avaritia:neutron_collector>,
-[[<ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>],
-[<ore:blockIonite>, <mekanism:polyethene:2>, <ore:itemRubber>, <mekanism:polyethene:2>, <ore:itemRubber>, <mekanism:polyethene:2>, <ore:itemRubber>, <mekanism:polyethene:2>, <ore:blockIonite>],
-[<ore:ingotCrystalMatrix>, <ore:itemRubber>, <draconicevolution:wyvern_core>, <ore:circuitUltimate>, <extendedcrafting:material:17>, <ore:circuitUltimate>, <draconicevolution:wyvern_core>, <ore:itemRubber>, <ore:ingotCrystalMatrix>],
-[<ore:blockIonite>, <mekanism:polyethene:2>, <ore:circuitUltimate>, <draconicevolution:wyvern_core>, <ore:blockIridium>, <draconicevolution:wyvern_core>, <ore:circuitUltimate>, <mekanism:polyethene:2>, <ore:blockIonite>],
-[<ore:ingotCrystalMatrix>, <ore:itemRubber>, <extendedcrafting:material:17>, <ore:blockIridium>, <extracells:storage.component:2>, <ore:blockIridium>, <extendedcrafting:material:17>, <ore:itemRubber>, <ore:ingotCrystalMatrix>],
-[<ore:blockIonite>, <mekanism:polyethene:2>, <ore:circuitUltimate>, <draconicevolution:wyvern_core>, <ore:blockIridium>, <draconicevolution:wyvern_core>, <ore:circuitUltimate>, <mekanism:polyethene:2>, <ore:blockIonite>],
-[<ore:ingotCrystalMatrix>, <ore:itemRubber>, <draconicevolution:wyvern_core>, <ore:circuitUltimate>, <extendedcrafting:material:17>, <ore:circuitUltimate>, <draconicevolution:wyvern_core>, <ore:itemRubber>, <ore:ingotCrystalMatrix>],
-[<ore:blockIonite>, <mekanism:polyethene:2>, <ore:itemRubber>, <mekanism:polyethene:2>, <ore:itemRubber>, <mekanism:polyethene:2>, <ore:itemRubber>, <mekanism:polyethene:2>, <ore:blockIonite>],
-[<ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>, <ore:blockIonite>, <ore:ingotCrystalMatrix>]]);
-
+mods.extendedcrafting.TableCrafting.addShaped(<avaritia:neutron_collector>, [
+	[<ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>], 
+	[<ore:ingotCrystalMatrix>, <ore:blockIron>, <ore:blockRedstone>, <ore:blockNetherStar>, <ore:blockRedstone>, <ore:blockIron>, <ore:ingotCrystalMatrix>], 
+	[<ore:blockIron>, <ore:blockRedstone>, <ore:blockNetherStar>, <avaritia:double_compressed_crafting_table>, <ore:blockNetherStar>, <ore:blockRedstone>, <ore:blockIron>], 
+	[<ore:blockIron>, <ore:blockNetherStar>, <avaritia:double_compressed_crafting_table>, <ore:itemSoulMachineChassi>, <avaritia:double_compressed_crafting_table>, <ore:blockNetherStar>, <ore:blockIron>], 
+	[<ore:blockIron>, <ore:blockRedstone>, <ore:blockNetherStar>, <avaritia:double_compressed_crafting_table>, <ore:blockNetherStar>, <ore:blockRedstone>, <ore:blockIron>], 
+	[<ore:ingotCrystalMatrix>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockNetherStar>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:ingotCrystalMatrix>], 
+	[<ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>]]);
 
 print("Initialized 'Avaritia.zs'");
