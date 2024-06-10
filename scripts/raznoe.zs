@@ -322,12 +322,6 @@ mods.extendedcrafting.TableCrafting.addShaped(<roost:roost>,
 ######################compacter###########################
 
 #-Creative Cobble Geberator 
-recipes.remove(<compacter:cobbler>);
-mods.extendedcrafting.TableCrafting.addShaped(<compacter:cobbler>, 
-[[<tp:emerald_cobblegen_block>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <tp:emerald_cobblegen_block>],
-[<extrautils2:decorativesolid:8>, <ore:blockCosmicNeutronium>, <extendedcrafting:material:13>, <ore:blockCosmicNeutronium>, <extrautils2:decorativesolid:8>],
-[<extrautils2:decorativesolid:8>, <extendedcrafting:material:13>, <draconicevolution:awakened_core>, <extendedcrafting:material:13>, <extrautils2:decorativesolid:8>],
-[<extrautils2:decorativesolid:8>, <ore:blockCosmicNeutronium>, <extendedcrafting:material:13>, <ore:blockCosmicNeutronium>, <extrautils2:decorativesolid:8>],
-[<tp:emerald_cobblegen_block>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <extrautils2:decorativesolid:8>, <tp:emerald_cobblegen_block>]]);
+
 
 print("Initializing 'raznoe.zs'");

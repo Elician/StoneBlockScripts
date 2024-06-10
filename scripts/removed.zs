@@ -98,9 +98,6 @@ mods.jei.JEI.removeAndHide(<randomthings:timeinabottle>.withTag({timeData: {stor
 recipes.remove(<projectex:knowledge_sharing_book>);
 mods.jei.JEI.removeAndHide(<projectex:knowledge_sharing_book>);
 
-mods.jei.JEI.removeAndHide(<bithop:fluxhop>);
-mods.jei.JEI.removeAndHide(<bithop:screwhop>);
-mods.jei.JEI.removeAndHide(<bithop:bithop>);
 
 mods.jei.JEI.removeAndHide(<darkutils:fake_tnt>);
 recipes.remove(<darkutils:fake_tnt>);
@@ -239,11 +236,7 @@ recipes.remove(<projecte:item.pe_catalitic_lens>);
 
 mods.jei.JEI.removeAndHide(<draconicevolution:mob_soul>);
 
-recipes.remove(<bithop:fluxhop>);
 
-recipes.remove(<bithop:bithop>);
-
-recipes.remove(<bithop:screwhop>);
 
 mods.jei.JEI.removeAndHide(<modularmachinery:blockinputbus:1>);
 recipes.remove(<modularmachinery:blockinputbus:1>);
