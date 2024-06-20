@@ -20,6 +20,9 @@ mods.jei.JEI.removeAndHide(<ae2stuff:inscriber>);
 
 mods.jei.JEI.removeAndHide(<minecraft:hopper>);
 
+recipes.remove(<tp:netherstar_block>);
+mods.jei.JEI.removeAndHide(<tp:netherstar_block>);
+
 recipes.remove(<avaritia:extreme_crafting_table>);
 mods.jei.JEI.removeAndHide(<avaritia:extreme_crafting_table>);
 
