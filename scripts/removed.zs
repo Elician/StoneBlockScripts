@@ -20,6 +20,45 @@ mods.jei.JEI.removeAndHide(<ae2stuff:inscriber>);
 
 mods.jei.JEI.removeAndHide(<minecraft:hopper>);
 
+recipes.remove(<draconicadditions:wyvern_shield_necklace>);
+mods.jei.JEI.removeAndHide(<draconicadditions:wyvern_shield_necklace>);
+
+recipes.remove(<draconicadditions:overload_belt>);
+mods.jei.JEI.removeAndHide(<draconicadditions:overload_belt>);
+
+recipes.remove(<draconicadditions:inertia_cancel_ring>);
+mods.jei.JEI.removeAndHide(<draconicadditions:inertia_cancel_ring>);
+
+recipes.remove(<draconicadditions:portable_wired_charger>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_charger>);
+
+recipes.remove(<draconicadditions:portable_wired_charger:1>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_charger:1>);
+
+recipes.remove(<draconicadditions:portable_wired_charger:2>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_charger:2>);
+
+recipes.remove(<draconicadditions:portable_wired_charger:3>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_charger:3>);
+
+recipes.remove(<draconicadditions:basic_shield_necklace>);
+mods.jei.JEI.removeAndHide(<draconicadditions:basic_shield_necklace>);
+
+recipes.remove(<draconicadditions:draconic_shield_necklace>);
+mods.jei.JEI.removeAndHide(<draconicadditions:draconic_shield_necklace>);
+
+recipes.remove(<draconicadditions:portable_wired_discharger>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_discharger>);
+
+recipes.remove(<draconicadditions:portable_wired_discharger:1>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_discharger:1>);
+
+recipes.remove(<draconicadditions:portable_wired_discharger:2>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_discharger:2>);
+
+recipes.remove(<draconicadditions:portable_wired_discharger:3>);
+mods.jei.JEI.removeAndHide(<draconicadditions:portable_wired_discharger:3>);
+
 recipes.remove(<tp:netherstar_block>);
 mods.jei.JEI.removeAndHide(<tp:netherstar_block>);
 
