@@ -39,3 +39,13 @@ recipes.addShaped(<sbu:six_tier_fertilize>, [
     [<mysticalagradditions:insanium>, <sbu:five_tier_fertilize>, <mysticalagradditions:insanium>],
     [null, <mysticalagradditions:insanium>, null]
 ]);
+
+#-теплица
+recipes.remove(<immersiveengineering:metal_device1:13>);
+mods.extendedcrafting.TableCrafting.addShaped(2, <immersiveengineering:metal_device1:13>, [
+	[<ore:slabSteel>, <actuallyadditions:block_greenhouse_glass>, <immersiveengineering:metal_decoration0>, <actuallyadditions:block_greenhouse_glass>, <ore:slabSteel>], 
+	[<actuallyadditions:block_greenhouse_glass>, <ore:stickSteel>, <ore:electronTube>, <ore:stickSteel>, <actuallyadditions:block_greenhouse_glass>], 
+	[<actuallyadditions:block_greenhouse_glass>, <ore:stickSteel>, <botania:pump>, <ore:stickSteel>, <actuallyadditions:block_greenhouse_glass>], 
+	[<actuallyadditions:block_greenhouse_glass>, <extendedcrafting:material:8>, <immersiveengineering:metal_decoration0:4>, <extendedcrafting:material:8>, <actuallyadditions:block_greenhouse_glass>], 
+	[<ore:plankTreatedWood>, <projectred-fabrication:ic_chip>, <projectred-fabrication:ic_chip>, <projectred-fabrication:ic_chip>, <ore:plankTreatedWood>]
+]);
