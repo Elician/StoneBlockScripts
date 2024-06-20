@@ -167,7 +167,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:resource:6>,
 
 #-Катализатор бесконечности
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
-mods.extendedcrafting.TableCrafting.addShaped(2, <avaritia:resource:5>, [
+mods.extendedcrafting.TableCrafting.addShaped(<avaritia:resource:5>, [
 	[<extendedcrafting:singularity_ultimate>, <ore:ingotUltimate>, <ore:dragonEgg>, <ore:itemEnderCrystal>, <ore:itemVibrantCrystal>, <ore:itemPulsatingCrystal>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:endest_pearl>], 
 	[<ore:blockNetherStar>, <extracells:storage.component:2>, <extracells:storage.component:10>, <extracells:storage.component:17>, <chancecubes:chance_icosahedron>, <actuallyadditions:item_misc:19>, <ore:compressed5xCobblestone>, <ore:compressed6xCobblestone>, <ore:compressed7xCobblestone>], 
 	[<ore:itemRubber>, <ore:blockPulsatingIron>, <avaritia:resource:7>, <draconicevolution:chaotic_core>, <draconicevolution:awakened_core>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_core>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal_empowered:4>], 
