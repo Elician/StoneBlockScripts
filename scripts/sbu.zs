@@ -49,3 +49,10 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <immersiveengineering:metal_dev
 	[<actuallyadditions:block_greenhouse_glass>, <extendedcrafting:material:8>, <immersiveengineering:metal_decoration0:4>, <extendedcrafting:material:8>, <actuallyadditions:block_greenhouse_glass>], 
 	[<ore:plankTreatedWood>, <projectred-fabrication:ic_chip>, <projectred-fabrication:ic_chip>, <projectred-fabrication:ic_chip>, <ore:plankTreatedWood>]
 ]);
+
+#-двадцатигранник удачи
+recipes.addShaped(<chancecubes:chance_icosahedron>, [
+    [<extrautils2:decorativesolid:8>, <minecraft:glowstone>, <extrautils2:decorativesolid:8>],
+    [<minecraft:diamond_block>, <minecraft:nether_star>, <minecraft:diamond_block>],
+    [<extrautils2:decorativesolid:8>, <minecraft:diamond_block>, <extrautils2:decorativesolid:8>]
+]);
