@@ -56,3 +56,5 @@ recipes.addShaped(<chancecubes:chance_icosahedron>, [
     [<minecraft:diamond_block>, <minecraft:nether_star>, <minecraft:diamond_block>],
     [<extrautils2:decorativesolid:8>, <minecraft:diamond_block>, <extrautils2:decorativesolid:8>]
 ]);
+
+mods.thaumcraft.Infusion.registerRecipe("каменные семена", "", <sbu:super_stone_seeds>, 20, [<aspect:aer> *30, <aspect:ignis> *30,<aspects:metallum> *30], <mysticalagriculture:stone_seeds>, [<minecraft:stone>, <mysticalagriculture:crafting:16>, <minecraft:stone>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
