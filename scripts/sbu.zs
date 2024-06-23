@@ -1,3 +1,5 @@
+import mods.thaumcraft.Infusion;
+
 #-инфериумное удобрение
 recipes.addShaped(<sbu:first_tier_fertilize>, [
     [null, <mysticalagriculture:crafting>, null],
