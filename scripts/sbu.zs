@@ -58,13 +58,15 @@ recipes.addShaped(<chancecubes:chance_icosahedron>, [
     [<minecraft:diamond_block>, <minecraft:nether_star>, <minecraft:diamond_block>],
     [<extrautils2:decorativesolid:8>, <minecraft:diamond_block>, <extrautils2:decorativesolid:8>]
 ]);
-
-mods.thaumcraft.Infusion.registerRecipe("testName10", "", <sbu:super_stone_seeds>, 8, [<aspect:aer>*30, <aspect:ignis>*30, <aspect:metallum>*30], <mysticalagriculture:stone_seeds>, [<minecraft:stone>, <mysticalagriculture:crafting:16>, <minecraft:stone>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
+#-каменные семена
+mods.thaumcraft.Infusion.registerRecipe("testName10", "", <sbu:super_stone_seeds>, 8, [<aspect:terra> *128, <aspect:aer>*30, <aspect:ignis>*30, <aspect:metallum>*30], <mysticalagriculture:stone_seeds>, [<minecraft:stone>, <mysticalagriculture:crafting:16>, <minecraft:stone>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
 
 mods.thaumcraft.Infusion.registerRecipe("testName12", "", <sbu:super_nature_seeds>, 8, [<aspect:aer>*30, <aspect:ignis>*30, <aspect:metallum>*30], <mysticalagriculture:nature_seeds>, [<minecraft:vine>, <mysticalagriculture:crafting:16>, <minecraft:cactus>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
-
+#-земленые семена
 mods.thaumcraft.Infusion.registerRecipe("testName13", "", <sbu:super_dirt_seeds>, 8, [<aspect:aer>*30, <aspect:ignis>*30, <aspect:metallum>*30], <mysticalagriculture:dirt_seeds>, [<minecraft:dirt>, <mysticalagriculture:crafting:16>, <minecraft:dirt>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
-
+#-деревянные семена
 mods.thaumcraft.Infusion.registerRecipe("testName14", "", <sbu:super_wood_seeds>, 8, [<aspect:aer>*30, <aspect:ignis>*30, <aspect:metallum>*30], <mysticalagriculture:wood_seeds>, [<minecraft:log:3>, <mysticalagriculture:crafting:16>, <minecraft:log:1>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
-
+#-синаловые семена
 mods.thaumcraft.Infusion.registerRecipe("testName15", "", <sbu:super_signalum_seeds>, 14, [<aspect:aer>*30, <aspect:ignis>*30, <aspect:metallum>*30], <mysticalagriculture:signalum_seeds>, [<thermalfoundation:upgrade:2>, <mysticalagriculture:crafting:16>, <thermalfoundation:coin:101>, <thermalfoundation:coin:101>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_terra>]);
+#-Драконивые семена
+mods.thaumcraft.Infusion.registerRecipe("testName17", "", <sbu:super_draconium_seeds>, 20, [<aspect:aqua> *128, <aspect:perditio> *128, <aspect:aer> *128, <aspect:ignis> *128, <aspect:metallum>*30], <mysticalagriculture:draconium_seeds>, [<draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <minecraft:dragon_breath>, <minecraft:dragon_breath>, <minecraft:dragon_breath>, <minecraft:dragon_egg>, <mysticalagriculture:crafting:21>, <mysticalagriculture:mystical_fertilizer>, <thaumcraft:crystal_ignis>]);
