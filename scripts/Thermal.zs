@@ -461,6 +461,8 @@ mods.thermalexpansion.Transposer.addFillRecipe(<tconstruct:ingots>*9, <minecraft
 
 mods.thermalexpansion.Transposer.addFillRecipe(<tconstruct:ingots:2>*9, <minecraft:cobblestone>, <liquid:manyullyn> * 1296, 20);
 
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:florb>.withTag({Fluid: "milk"}), <thermalexpansion:florb>, <liquid:milk> * 1000, 20);
+
 recipes.remove(<thermaldynamics:duct_0:9>);
 recipes.addShaped(<thermaldynamics:duct_0:9>,
 [[<ore:ingotElectrum>, <ore:fusedQuartz>, <ore:ingotElectrum>],
