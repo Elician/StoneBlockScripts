@@ -322,6 +322,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<roost:roost>,
 ######################compacter###########################
 
 #-Creative Cobble Geberator 
+123
 
 
 print("Initializing 'raznoe.zs'");
